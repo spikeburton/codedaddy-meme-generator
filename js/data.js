@@ -12,7 +12,7 @@ const sayings = [
     bottom: "do math real good"
   },
   {
-    top: "can't have too much 'til"
+    top: "can't have too much 'til",
     bottom: "you have too much n' can't take it back"
   }
 ]
