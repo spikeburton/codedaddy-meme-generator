@@ -11,7 +11,7 @@ h1 {
   position: relative;
   top: 40px;
   width: auto;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   /* overflow: auto; */
 }
 
@@ -22,7 +22,7 @@ h1 {
   top: 10px;
   width: 300px;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid #aaa;
   background-image: url('../img/codedaddy.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,12 +34,14 @@ h1 {
   position: absolute;
   display: inline-block;
   width: 98%;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  font-family: Impact, sans-serif;
+  letter-spacing: 0.05em;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 1.4em;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #top-text {
