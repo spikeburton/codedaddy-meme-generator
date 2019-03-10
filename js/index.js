@@ -14,5 +14,6 @@ function generate() {
   let bottomText = document.getElementById("bottom-text");
   let saying = sayings[Math.floor(Math.random() * sayings.length)];
 
-  // window.alert(`${saying.top} ${saying.bottom}`);
+  topText.innerText = saying.top;
+  bottomText.innerText = saying.bottom;
 }
