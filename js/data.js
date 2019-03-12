@@ -19,4 +19,8 @@ const sayings = [
     top: "When you know its a dream",
     bottom: "Because it happend on a piano"
   }
+  {
+    top: "did someone say ants on a log??"
+    bottom: "fun_factor += 1000"
+  }
 ]
