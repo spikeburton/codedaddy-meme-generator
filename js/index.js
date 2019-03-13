@@ -7,15 +7,18 @@ function generate() {
   bottomText.innerText = saying.bottom;
 }
 
-const image = document.querySelector("img")
-const generator = document.getElementById("generator")
+function renderCanvas(text1="Top Text",text2="Bottom Text") {
+  const image = document.querySelector("img")
+  const generator = document.getElementById("generator")
 
-const ctx = generator.getContext('2d')
+  const ctx = generator.getContext('2d')
 
-ctx.font = "36pt Verdana"
-ctx.drawImage(image,0,0)
-ctx.fillText("Test 123", 40, 80)
-
+  ctx.font = "18pt Impact"
+  ctx.drawImage(image,0,0)
+  ctx.fillStyle = 'white'
+  ctx.fillText(text1, 60, 25)
+  ctx.fillText(text2, 60, 180)
+}
 
 // var canvas = document.getElementById('canvas'),
 //         ctx = canvas.getContext('2d');
