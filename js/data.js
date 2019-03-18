@@ -14,5 +14,13 @@ const sayings = [
   {
     top: "can't have too much 'til",
     bottom: "you have too much n' can't take it back"
+  },
+  {
+    top: "When you know its a dream",
+    bottom: "Because it happend on a piano"
+  },
+  {
+    top: "did someone say ants on a log??",
+    bottom: "fun_factor += 1000"
   }
 ]
