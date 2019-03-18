@@ -8,6 +8,7 @@ function generate() {
     saying = sayings[Math.floor(Math.random() * sayings.length)];
   } while (saying === prev);
 
+
   renderCanvas(saying.top, saying.bottom)
   prev = saying;
 }
