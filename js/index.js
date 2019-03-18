@@ -24,6 +24,7 @@ function renderCanvas(text1="Top Text",text2="Bottom Text") {
   ctx.fillStyle = 'white'
   ctx.strokeStyle = 'black'
   ctx.fillText(text1, 60, 25)
+  ctx.lineWidth = 2
   ctx.strokeText(text1, 60, 25)
   ctx.fillText(text2, 60, 180)
   ctx.strokeText(text2, 60, 180)
