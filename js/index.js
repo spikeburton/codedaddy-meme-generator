@@ -16,8 +16,12 @@ function renderCanvas(text1="Top Text",text2="Bottom Text") {
   ctx.font = "18pt Impact"
   ctx.drawImage(image,0,0)
   ctx.fillStyle = 'white'
+  ctx.strokeStyle = 'black'
   ctx.fillText(text1, 60, 25)
+  ctx.strokeText(text1, 60, 25)
   ctx.fillText(text2, 60, 180)
+  ctx.strokeText(text2, 60, 180)
+
 }
 
 // var canvas = document.getElementById('canvas'),
